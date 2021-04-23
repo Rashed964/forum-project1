@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../image/beach1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+header{
+
+width: 90%;
+
+margin: auto;
+
+padding: 20px 0;
+
+font-family: sans-serif;
+
+border: 1px 2px 3px 4px;
+}
+.header-bar{
+
+display: flex;
+
+
+color: aqua;
+}
+.logo{
+
+width: 20%;
+}
+.logo h1{
+
+}
+.header-bar nav{
+
+width: 60%;
+}
+.header-bar nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-evenly;
+
+align-items: center;
+
+font-size: 30px;
+
+
+}
+.header-bar nav ul li{
+
+color: #fff;
+}
+.header-bar nav ul li a{
+    
+color: #fff;
+    
+text-decoration: none;
+    
+font-size: 25px;
+    
+font-weight: 600;
+    
+text-transform: uppercase;
+}
+
+
+.main-content{
+
+
+
+width: 50%;
+
+margin: auto;
+
+padding: 125px 0;
+
+display: flex;
+
+justify-content: center;
+}
+.forum-content{width: 50%;text-align: center;/* box-shadow: 1px 6px 7px 6px #014889; */box-shadow: inset -5px -6px 16px 1px #00498a;padding: 120px 120px;color: #fff;font-size: 20px;border-radius: 10px;}
+.forum-content h1{
+
+margin: 20px 0;
+
+color: #fff;
+}
+.forum-content h1{
+
+margin: 20px;
+
+
+}
+.forum-content p{
+
+
+}
+.forum-content h2{
+
+padding: 20px;
+
+font-size: 40px;
+}
+.forum-content h3{
+    
+margin: 15px;
+}
+.forum-content form{
+
+width: 100%;
+
+height: 100%;
+}
+.forum-content form input{
+
+width: 100%;
+
+border: none;
+
+padding: 15px 0 15px 0;
+
+margin: 5px 0;
+
+text-align: center;
+
+background: #caecef;
+
+font-size: 20px;
+
+border-radius: 20px;
+}
+.forum-content form select{
+
+padding: 10px;
+
+margin: 20px;
+
+color: #312c2c;
+
+text-transform: capitalize;
+
+border-radius: 10px;
+
+background: #caecef;
+}
+.forum-content form input[type='submit']{
+    
+width: 50%;
+    
+margin: 30px;
+    
+color: #3a2424;
+    
+background: #6eb4b9;
+}
+.forum-content label:gender{
+
+}
+.forum-content form input[type='radio']{
+
+width: 15%;
+
+margin: 20px;
+
+font-size: 20px;
+}
+.icon-content{
+
+}
+.social-icon{
+
+width: 50% auto;
+
+margin: 30px auto;
+
+text-align: center;
+}
+.icon-content img{
+    
+width: 30px;
+    
+margin: 0 12px;
+    
+box-shadow: 0 0 20px #e83d3d;
+    
+cursor: pointer;
+    
+border-radius: 50%;
+}
+.social-icon h1{
+
+color: #d86060;
+}
